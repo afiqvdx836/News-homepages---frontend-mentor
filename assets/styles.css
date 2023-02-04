@@ -1,0 +1,9 @@
+.header{
+    max-width: 69.375rem;
+    margin: 0 auto;
+    padding: 5.5rem;
+}
+
+.nav-link{
+    color: grey;
+}
