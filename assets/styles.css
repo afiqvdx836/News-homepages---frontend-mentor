@@ -4,6 +4,8 @@
     padding-top: 5.5rem;
 }
 
+
+
 .nav-link{
     color: grey;
 }
@@ -88,4 +90,33 @@ hr{
 
 img{
     padding: 0 0.25rem;
+}
+
+.image2{
+    display: none;
+}
+
+@media (max-width:576px){
+    body{
+        margin: 1rem 2rem;
+    }
+    .image1{
+        display: none;
+    }
+    .image2{
+        display: block;
+        visibility: visible;
+    }
+    .main-text{
+        padding-left: 0;
+    }
+
+    section.content {
+       margin: 0;
+    }
+
+    .footer-news {
+        margin: 0;
+        padding: 15px;
+    }
 }
