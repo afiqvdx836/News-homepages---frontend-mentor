@@ -1,9 +1,91 @@
 .header{
     max-width: 69.375rem;
     margin: 0 auto;
-    padding: 5.5rem;
+    padding-top: 5.5rem;
 }
 
 .nav-link{
     color: grey;
+}
+
+img {
+    max-width: 100%;
+}
+
+.col-lg-8.img-text {
+    margin-top: 2rem;
+}
+
+.text {
+    padding: 1rem;
+}
+
+.text-bold{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+.main-text{
+    padding-left: 5rem;
+}
+
+.read-more{
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    border-radius: 0%;
+    letter-spacing: 2%;
+}
+
+.read-more:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/*Content */
+section.content{
+    margin-left: 12.8rem;
+    margin-right: 12.8rem;
+}
+
+/* Side News */
+.side-news{
+    margin: 2rem 0 16px 0;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.sidenews-heading{
+    color: hsl(35, 77%, 62%);
+    padding: 1rem 0;
+}
+
+.sidenews-titlebold{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.sidenews-textdescription{
+    color: hsl(233, 8%, 79%);
+    
+}
+
+hr{
+    margin: 2rem 0;
+    color: hsl(36, 100%, 99%);
+}
+
+.footer-news{
+    margin-left: 12.8rem;
+    margin-right: 12.8rem;
+    padding: 15px;
+}
+
+.footer-img{
+   max-width: 100%;
+  
+}
+
+img{
+    padding: 0 0.25rem;
 }
